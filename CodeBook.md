@@ -2,7 +2,7 @@ Orginal description for this porject obtained at http://archive.ics.uci.edu/ml/d
 
 Original source for data utilized in project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The following run_analsis.R (R script) performs the following steps to clean up data
+The following run_analysis.R (R script) performs the following steps to clean up data
 
 1. Merges the training and the test sets to create one data set:
     It takes train/X_train.txt with test/X_test.txt, the result of which is a 10299x561 data frame, 
