@@ -59,4 +59,5 @@ for (s in 1:numSubjects) {
         row = row+1
     }
 }
-write.table(result, "data_set_with_the_averages.txt")
+write.table(result, "data_set_with_the_averages.txt", row.names=FALSE)
+
